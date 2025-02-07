@@ -22,3 +22,60 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Diretórios do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Arquivos de build do Java (Maven/Gradle)
+target/
+out/
+build/
+
+# Dependências baixadas
+.mvn/
+.gradle/
+!gradle-wrapper.jar
+
+# Arquivos temporários do sistema
+*.class
+*.log
+*.war
+*.ear
+*.jar
+
+# Configurações específicas do IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/shelf/
+
+# Arquivos de cache do IntelliJ
+.idea/assetWizardSettings.xml
+.idea/compiler.xml
+.idea/dictionaries/
+.idea/vcs.xml
+
+# Arquivos de cache do Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs e arquivos temporários do sistema
+hs_err_pid*
+*.swp
+*.swo
+*.swn
+
+# Configurações locais do usuário
+.env
+*.env
+*.DS_Store
+Thumbs.db
+
+# Arquivos do Sonar e cobertura de testes
+.sonar/
+coverage/
+*.lcov
